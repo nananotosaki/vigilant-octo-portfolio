@@ -66,7 +66,7 @@ function blog() {
 }
 
 function invalidCommand() {
-    const invalidCommand = { type: "text", content: "Invalid command. Type 'help' to see the list of available commands." }
+    const invalidCommand = { type: "error", content: "Invalid command. Type 'help' to see the list of available commands." }
     return invalidCommand;
 }
 
@@ -83,7 +83,6 @@ function handleCommand(input) {
             return help();
         case "skills":
             return skills(false);   
-
         case "skills -specific":
             return skills(true);
         case "projects":

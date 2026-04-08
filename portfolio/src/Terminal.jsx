@@ -44,7 +44,13 @@ export default function Terminal() {
     }
 
     return (
-        <div>
+        <div className="terminal">
+            <div className="terminal-titlebar">
+            <div className="titlebar-dot red" />
+            <div className="titlebar-dot yellow" />
+            <div className="titlebar-dot green" />
+            <span className="titlebar-title">zaya@portfolio:~</span>
+            </div>
             <OutputDisplay output={commandHistory} />
             <InputLine input={currentInput} onChange={handleChange} onSubmit={SubmitCommand} onKeyDown={handleKeyDown} onKeyUp={handleKeyUp} />
         </div>
