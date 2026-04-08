@@ -1,4 +1,4 @@
-// handles actual logic
+// handles command logic - what the commands do
 
 // command line commands
 function help() { 
