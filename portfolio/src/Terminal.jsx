@@ -49,7 +49,7 @@ export default function Terminal() {
             <div className="titlebar-dot red" />
             <div className="titlebar-dot yellow" />
             <div className="titlebar-dot green" />
-            <span className="titlebar-title">zaya@portfolio:~</span>
+            <span className="titlebar-title">nana@portfolio:~</span>
             </div>
             <OutputDisplay output={commandHistory} />
             <InputLine input={currentInput} onChange={handleChange} onSubmit={SubmitCommand} onKeyDown={handleKeyDown} onKeyUp={handleKeyUp} />
