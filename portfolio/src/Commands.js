@@ -38,7 +38,8 @@ function projects() {
 }
 
 function about() { 
-    console.log("about")
+    const about = { type: "text", content: "Hi! I'm Nana, a fullstack web developer and aspiring bug bounty hunter. I have a passion for web applications, especially finding security vulnerabilities in them. In my free time, I enjoy not working." }
+    return about;
 }
 
 function contact() { 
@@ -50,7 +51,8 @@ function contact() {
 }
 
 function clear() { 
-    console.log("clear Screen")
+    const clear = { type: "clear", content: null }
+    return clear;
 }
 
 function resume() {
@@ -105,4 +107,4 @@ function handleCommand(input) {
     }
 }
 
-export { help, skills, projects, about, contact, clear, resume, blog, invalidCommand, easterEgg };
+export { help, skills, projects, about, contact, clear, resume, blog, invalidCommand, easterEgg, handleCommand };
