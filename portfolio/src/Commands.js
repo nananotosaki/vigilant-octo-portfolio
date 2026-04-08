@@ -44,7 +44,7 @@ function about() {
 
 function contact() { 
     const contact = { type: "list", content: [
-        "Email: nananotosaki@gmail.com",
+        "Email: zaynwobu@gmail.com",
         "GitHub: https://github.com/nananotosaki"
     ] }
     return contact;
